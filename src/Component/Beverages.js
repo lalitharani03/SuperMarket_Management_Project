@@ -182,17 +182,7 @@ export default function Beverages() {
 function Card1(props)
 {
   const [count,setCount] = useState(0);
-    // function changeCount()
-    // {
-    //     if(count<=0)
-    //     {
-    //         setCount(count);
-    //     }
-    //     else{
-    //         setCount(count-1);
-    //     }
-    // }
-    return(
+      return(
     <div className='card'>
     <Card sx={{maxWidth: 345,padding:1 }}>
   <CardMedia className="image"image={props.img}
