@@ -24,7 +24,7 @@ const ImageSlide = ({ url }) => {
     );
 };
 
-// this is component of Slider
+
 
 class Slider extends Component{
     constructor(props) {
@@ -34,7 +34,6 @@ class Slider extends Component{
         }
     };
 
-    // here is function which is changing current index need to change the picture in slideshow
     componentDidMount () {
         let timeID= setInterval( ()=> {
             let current = this.state.currentIndex;
